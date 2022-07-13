@@ -1,23 +1,26 @@
-title: Jekyll Serial Programmer
+title: Avinash Reddy
 markdown: kramdown
-url: ""
-baseurl: "/jekyll-theme-serial-programmer"
+url: "https://avinashreddy3108.github.io"
+baseurl: "/me"
 
-# for atom feed
+# For atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: Avinash Reddy
+  email: avinashreddy3108@gmail.com
 
 plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-postfiles
 
-collections_dir: all_collections
 collections:
   posts:
     output: true
+
+sass:
+  style: compressed
 
 defaults:
   - scope:
@@ -25,4 +28,3 @@ defaults:
     values:
       layout: "post"
       permalink: /posts/:title/
-exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]

@@ -1,23 +1,26 @@
-name: Sharad Raj
-dp: https://avatars2.githubusercontent.com/u/36638057?s=460&u=0cbe4fd6b5a3655d91b3eb86db834d0829a0c086&v=4
-description: "
-  <p>
-    Developed by Sharad Raj who lives in India building useful things for the world.
-  </p>
-  <br/>
-  <p>
-    You should follow him on <a href='https://github.com/sharadcodes' target='_blank'>Github</a>
-  </P>
-"
-email: dev_sharad@outlook.com
+name: Avinash Reddy
+dp: https://avatars2.githubusercontent.com/u/27774996?s=460&v=4
 contact:
-  - title: linkedin
-    url: https://www.linkedin.com/in/srsmaurya
-  - title: github
-    url: https://github.com/sharadcodes
-  - title: twitter
-    url: https://twitter.com/iamsharadraj
-  - title: dev
-    url: https://dev.to/sharadcodes
-  - title: email
-    url: mailto:dev_sharad@outlook.com
+  - title: Fork my stuff on GitHub!
+    url: https://github.com/avinashreddy3108
+    icon: fa:github
+
+  - title: Follow me on GitLab!
+    url: https://gitlab.com/avinashreddy3108
+    icon: fa:gitlab
+
+  - title: Let's chat on Telegram!
+    url: https://telegram.me/avinashreddy3108
+    icon: fa-brands:telegram-plane
+
+  - title: Stalk me on Reddit!
+    url: https://www.reddit.com/user/avinashreddy3108
+    icon: ic:baseline-reddit
+
+  - title: Slide into my Instagram DMs ;)
+    url: https://www.instagram.com/avinashreddy3108
+    icon: carbon:logo-instagram
+
+  - title: Good ol' email is fine too :)
+    url: mailto:avinashreddy3108@gmail.com
+    icon: cib:mail-ru

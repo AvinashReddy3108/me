@@ -9,7 +9,7 @@ window.onload = function () {
   document.querySelectorAll(".category").forEach((category) => {
     category.addEventListener("click", function (e) {
       const posts = categories[e.target.innerText.replace(" ","_")];
-      let html = ``
+      let html = ''
       posts.forEach(post=>{
         html += `
         <a class="modal-article" href="${post.url}">
@@ -18,7 +18,7 @@ window.onload = function () {
         </a>
         `
       })
-      document.querySelector("#category-modal-title").innerText = e.target.innerText;
+      document.querySelector("#category-modal-title").innerText = "Tag: " + e.target.innerText;
       document.querySelector("#category-modal-content").innerHTML = html;
       document.querySelector("#category-modal-bg").classList.toggle("open");
       document.querySelector("#category-modal").classList.toggle("open");

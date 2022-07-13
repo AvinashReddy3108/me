@@ -1,15 +1,8 @@
 <section id="bio">
   <section id="img-wrapper">
-    <img src="{{site.data.author.dp}}" alt="" />
+    <img src="{{ site.data.author.dp }}" alt="Profile Picture" width="100" height="100" />
   </section>
   <section id="bio-wrapper">
-    <div id="text-wrapper">{{site.data.author.description}}</div>
-    <div id="social-wrapper">
-      {% for i in site.data.author.contact %}
-      <a href="{{i.url}}" target="_blank">
-        <img src="{{site.baseurl}}/assets/icons/{{i.title}}.png" alt="" />
-      </a>
-      {%endfor%}
-    </div>
+    {% include description.html %} {% include socials.html %}
   </section>
 </section>

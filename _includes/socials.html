@@ -1,0 +1,7 @@
+<div id="social-wrapper">
+  {% for i in site.data.author.contact %}
+  <a href="{{ i.url }}" target="_blank" title="{{ i.title }}">
+    <i class="iconify" style="color: var(--white-1);" data-icon="{{ i.icon }}"></i>
+  </a>
+  {% endfor %}
+</div>
