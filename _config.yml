@@ -21,6 +21,7 @@ collections:
 
 sass:
   style: compressed
+  sourcemap: development
 
 defaults:
   - scope:
