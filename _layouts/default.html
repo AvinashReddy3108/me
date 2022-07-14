@@ -11,13 +11,13 @@ layout: compress
       anchorBody="#" beforeHeading=true %} {% include footer.html %}
     </main>
     {% include category-modal.html %}
-    <script src="{{ site.baseurl }}/assets/js/categories.js"></script>
+    <script src="{{'/assets/js/categories.js' | relative_url }}"></script>
     {% if page.layout == "post" %}
-    <script defer src="{{ site.baseurl }}/assets/js/lbox.js"></script>
+    <script defer src="{{ '/assets/js/lbox.js' | relative_url }}"></script>
     {% endif %}
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/fontsource-jetbrains-mono@4.0.0/index.min.css"
+      href="https://cdn.jsdelivr.net/npm/fontsource-jetbrains-mono@4.5.9/index.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@iconify/iconify@2.2.1/dist/iconify.min.js"></script>
   </body>

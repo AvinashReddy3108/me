@@ -9,33 +9,22 @@
   --gray-3: #25282c;
   --gray-4: #151618;
   --gray-5: #151618;
-  --gray-6: #111111;
-  --white-1: #eeeeee;
+  --gray-6: #111;
+  --white-1: #eee;
   --white-2: #a9abb3;
 }
+
 * {
   font-family: inherit;
   text-decoration: none;
   margin: 0;
   padding: 0;
+
   img {
     max-width: 100%;
   }
 }
-html {
-  color: var(--white-2);
-  background-color: var(--gray-6);
-  font-family: "JetBrains Mono", monospace;
-  line-height: 2rem;
-  background-color: var(--gray-5);
-}
-body {
-  color: var(--white-2);
-  background-color: var(--gray-6);
-  font-family: "JetBrains Mono", monospace;
-  line-height: 2rem;
-  background-color: var(--gray-5);
-}
+
 #category-modal-bg {
   position: fixed;
   top: 0;
@@ -47,6 +36,7 @@ body {
   display: none;
   visibility: hidden;
 }
+
 #category-modal {
   position: fixed;
   top: 0;
@@ -64,38 +54,36 @@ body {
   visibility: hidden;
   line-height: 140%;
 }
+
 #category-modal-content {
   max-height: calc(100% - 5rem);
   overflow: auto;
 }
+
 #category-modal-title {
   margin-bottom: 1rem;
   font-size: 2rem;
   padding: 1rem;
 }
-#category-modal-bg.open {
-  display: block;
-  visibility: visible;
-}
-#category-modal.open {
-  display: block;
-  visibility: visible;
-}
+
 .modal-article {
   display: block;
   color: var(--white-2);
   margin-bottom: 0.5rem;
   padding: 0.5rem 1rem;
   transition: all 0.2s ease-in-out;
+
   &:hover {
     background: var(--gray-4);
   }
 }
+
 .modal-article-date {
   display: block;
   color: var(--white-2);
   font-size: 0.8rem;
 }
+
 hr {
   border-top: 2px dashed var(--white-2) !important;
   border-bottom: none !important;
@@ -103,11 +91,27 @@ hr {
   border-right: none !important;
   margin-bottom: 1.75rem !important;
 }
+
 main {
   margin: 0 auto;
   max-width: 650px;
-  padding: 3rem 0 4rem 0;
+  padding: 3rem 0 4rem;
 }
+
 header {
-  padding: 2rem 0 4rem 0;
+  padding: 2rem 0 4rem;
+}
+
+html,
+body {
+  color: var(--white-2);
+  background-color: var(--gray-6);
+  font-family: "JetBrains Mono", monospace;
+  line-height: 2rem;
+}
+
+#category-modal-bg.open,
+#category-modal.open {
+  display: block;
+  visibility: visible;
 }
