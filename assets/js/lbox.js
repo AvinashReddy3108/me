@@ -11,7 +11,7 @@ images.forEach((image) => {
     while (lightbox.firstChild) {
       lightbox.removeChild(lightbox.firstChild);
     }
-    img.style.setProperty("cursor", "not-allowed");
+    img.style.setProperty("cursor", "default");
     lightbox.appendChild(img);
     lightbox.style.setProperty("cursor", "zoom-out");
   });

@@ -27,16 +27,15 @@ author:
 
     - title: Stalk me on Reddit!
       url: https://www.reddit.com/user/avinashreddy3108
-      icon: ic:baseline-reddit
+      icon: fa:reddit
 
     - title: Slide into my Instagram DMs ;)
       url: https://www.instagram.com/avinashreddy3108
-      icon: carbon:logo-instagram
+      icon: fa:instagram
 
     - title: Good ol' email is fine too :)
       url: mailto:avinashreddy3108@gmail.com
       icon: cib:mail-ru
-
 
 plugins:
   - jemoji
@@ -44,6 +43,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-postfiles
+  - jekyll-loading-lazy
+  - jekyll-target-blank
 
 collections:
   posts:
