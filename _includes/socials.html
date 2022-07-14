@@ -1,7 +1,11 @@
 <div id="social-wrapper">
   {% for i in site.author.socials %}
   <a href="{{ i.url }}" target="_blank" title="{{ i.title }}">
-    <i class="iconify" style="color: var(--white-1);" data-icon="{{ i.icon }}"></i>
+    <i
+      class="iconify"
+      style="color: var(--white-1)"
+      data-icon="{{ i.icon }}"
+    ></i>
   </a>
   {% endfor %}
 </div>
